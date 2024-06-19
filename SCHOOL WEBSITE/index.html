@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\ISUS\Documents\SCHOOL WEBSITE\img\playstore.png" content="icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://httpscdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/call-action.css">
+    <link rel="stylesheet" href="css/featured.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    
+
+</head>
+<body>
+    <!--Start of the hero section-->
+
+    <div class="hero-start">
+        <!--Header section for smaller devices-->
+        <div class="small-screen">
+            <div class="logo">
+                <img src="img/brain.png" alt="logo">
+            </div>
+            <div id="myNav" class="nav-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">CLOSE</a>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="admission.html">Admission</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+
+            </div>
+        </div>
+        <span class="openBtn" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!--Header section for larger screen devices -->
+        <div class="large-screen">
+            <div class="col-1">
+                <img src="img/brain.png" alt="logo">
+
+            </div>
+            <div class="col-2">
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="admission.html">Admission</a>
+              <a href="courses.html">Courses</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="col-3">
+                <a href=""><i class="fa fa-search"></i></a>
+                <a href=""><i class="fa fa-user"></i></a>
+                <a href=""><i class="fa fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        
+
+        <!--start of hero texts and form-->
+        <div class="hero-text">
+            <p style="Font-size: 40px; color: white;"><b>Education is the key to Success</b></p>
+            <a class="hero-btn" href=""><i class="fa fa-user-plus"></i>Register</a>
+            <a class="hero-btn" href=""><i class="fa fa-right-to-bracket"></i>Login</a>
+            <a class="submit-btn" href="" >Submit</a>
+        </div>
+        <div class="hero-form">
+            <marquee behavior="school" direction="right">Students Login</marquee>
+            <label for="user">Username: </label>
+            <br>
+            <input type="text" id="uname" placeholder="@username">
+            <br>
+            <label for="pwd">Password:</label>
+            <br>
+            <input type="password" id="password" placeholder="enter your password">
+            <a  class="forgot-pwd" href="">Forgot password?</a>
+        </div>
+    </div>
+
+    <!--Start of our services-->
+    <div class="call-action">
+        <div class="call-image">
+            <img src="img/school.jpg" alt="school">
+        </div>
+        <div class="call-text">
+            <h1>Get Access to Quality Courses from Expert Today </h1>
+            <p>Become a professional by developing different website and understanding many skills you need to get hired for a remote job intentionally. You will also be issued a certificate after you have completed each courses you enrolled for on our website.</p>
+            <a class="call-btn"  href="">Discover Courses <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <!--Start of mobile app-->
+    <div class="mobile-app">
+        <h3>Smart developers now has a mobile app</h3>
+        <img src="img/playstore.png" alt="playstore logo">
+        <img src="img/appstore.png" alt="appstore logo">
+        
+    </div>
+
+    <!--Start of featured courses-->
+    <h2 class="course-title">Our featured Courses</h2>
+    <div class="featured">
+        <div class="box">
+            <img src="img/html.png" alt="html logo">
+            <h4>HTML Course</h4>
+            <p>Learn how to develop website with coding</p>
+            <a class="box-btn" href="">Explore Now <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="box">
+            <img src="img/css.png" alt="CSS logo">
+            <h4>CSS Course</h4>
+            <p>Learn how to style HTML element with ease</p>
+            <a class="box-btn" href="">Explore Now <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="box">
+            <img src="img/js.png" alt="JS logo">
+            <h4>Javascript Course</h4>
+            <p>Learn how to create behaviour or actions for website</p>
+            <a class="box-btn" href="">Explore Now <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="box">
+            <img src="img/jquery.png" alt="jQuery logo">
+            <h4>jQuery Course</h4>
+            <p>Learn how to write javascript in simple way</p>
+            <a class="box-btn" href="">Explore Now <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+    </div>
+
+    <!--Start of FAQS-->
+    <div class="accordion-container">
+        <h2 class="accordion-title">Frequently Asked Questions</h2>
+        <div id="accordion1"><i class="fa-solid fa-arrow-down"></i>What Skills will I learn
+        </div>
+        <div id="panel1">You can learn many skills from frontend development like:
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javascript</li>
+                <li>jQuery</li>
+                <li>Wordpress</li>
+                <li>Excel etc...</li>
+            </ul>
+        </div>
+        <br>
+        <div id="accordion2"><i class="fa-solid fa-arrow-down"></i>Will I Get a certificate?</div>
+        <div id="panel2">You will get a certificate for all the courses you enrolled for at Smart Developers Academy</div>
+    </div>
+    <br><br>
+
+    <!--Start of the footer section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-1">
+                <h2>Contact Us</h2>
+                <p> <i class="fa fa-map-marker"></i>233 Ikorodu Road, Lagos Nigeria</p>
+                <p> <i class="fa fa-phone"></i>+2347083074264</p>
+                <p><i class="fa fa-envelope"></i>nwezechisom2003@gmail.com</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-2">
+                <h2>My Account</h2>
+                <a href="">My Account</a>
+                <a href="">Courses</a>
+                <a href="">About Us</a>
+                <a href="">FAQs</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="footer-3">
+                <h2>Opening Hours</h2>
+                <p><b>Monday</b> 8PM - 7PM</p>
+                <p><b>Tuesday</b> 8PM - 7PM</p>
+                <p><b>Wednesday</b> 8PM - 7PM</p>
+                <p<b>Thursday</b> 8PM - 7PM</p>
+                <p><b>Friday</b> 8PM - 4PM</p>
+            </div>
+            <div class="footer-4">
+             <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter and be the first to get our latest update</p>
+                <input type="email" placeholder="Email Adress">
+                <br>
+                <a class="sub-btn" href="">Subscribe</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $("#accordion1").click(function(){
+                $("#panel1").slideToggle("fast");
+        });
+        });
+
+        $(document).ready(function(){
+            $("#accordion2").click(function(){
+                $("#panel2").slideToggle("fast");
+        });
+        });
+    
+    </script>
+
+</body>
+</html>
